@@ -15,3 +15,4 @@ function isPangram(string){
         }
     }
       return true
+}
