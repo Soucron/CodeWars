@@ -10,7 +10,7 @@ Solution:
 
 function powersOfTwo(n){
   let array = []
-  while (n >= 0) {
+   while (n >= 0) {
     array.unshift(Math.pow(2,n));
     n--;
   }
