@@ -23,7 +23,7 @@ function isValidWalk(walk) {
       } else if (walk[i] == 'n') {
         countN++
       }
-    } if (countN == countS &&  countW  == countE ) {
+     } if (countN == countS &&  countW  == countE ) {
       return true
-    } else return false
+     } else return false
   }
