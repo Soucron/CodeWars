@@ -7,5 +7,5 @@
 function solution(string) {
   let fixRegex = /([A-Z])/g;  
   let ReplaceText = ' $1'
-  return string.replace(fixRegex,  ReplaceText); //You can complete this task in one string//
+  return string.replace(fixRegex,  ReplaceText); 
 }
