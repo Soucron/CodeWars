@@ -1,0 +1,13 @@
+
+
+Solution:
+
+function reverseWords(str){
+   let array = str.split(" ");
+
+    //Use the reverse method
+    array.reverse()
+
+    //Convert it back to a string and return
+    return array.join(" ")
+   }
