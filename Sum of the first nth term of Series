@@ -23,7 +23,7 @@ Solution:
 function SeriesSum(n){ 
 let numbers = [];
  if ( n == 0 ) {
-  return 0 
+  return "0.00" 
 } else {
   for (let i = 1; numbers.length<n;i+=3)
     numbers.push(i);  
