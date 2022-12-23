@@ -25,7 +25,7 @@ function tribonacci(signature,n){
     console.log(i)
       signature.push(signature[i] + signature[i+1] + signature[i+2]); 
     
-      console.log(signature)
+     console.log(signature)
     }
     return signature.slice(0, n); 
   }
