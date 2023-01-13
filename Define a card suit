@@ -11,8 +11,7 @@ Solution:
 
 function defineSuit(card) {
   let newCard = card.split('');
-  if (newCard.length == 2) {
-  switch(newCard[1]) {
+  switch(newCard[newCard.length-1]) {
       case  "♣" : 
       return "clubs";
       case '♦' :
@@ -21,15 +20,5 @@ function defineSuit(card) {
       return "hearts";
       case "♠" :
       return "spades";
-    }
-   } else switch(newCard[2]) {
-      case  "♣" : 
-      return "clubs";
-      case '♦' :
-      return "diamonds";
-      case '♥' : 
-      return "hearts";
-      case "♠" :
-      return "spades";
-    }
-  }
+    } 
+}
