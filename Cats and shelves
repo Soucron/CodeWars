@@ -1,0 +1,26 @@
+Input
+
+Start and finish shelf numbers (always positive integers, finish no smaller than start)
+Task
+
+Find the minimum number of jumps to go from start to finish
+Example
+
+Start 1, finish 5, then answer is 2 (1 => 4 => 5 or 1 => 2 => 5)
+
+Solution:
+
+function solution(start, finish) 
+{
+  let count = 0;
+  if ((finish-start)% 3 === 0) {
+    count = Math.floor((finish-start)/3)
+  } else if ((finish-start) % 3 == 2) {
+    count = Math.floor((finish-start)/3) +2
+  } else {
+    count = Math.floor((finish-start)/3) +1
+  }
+  
+  
+  return count
+}
